@@ -2655,6 +2655,15 @@ h3 {
     line-height: 19px;
   }
 
+  .brix---section {
+    padding: 20px 0;
+  }
+
+  .brix---section.grey-background {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .brix---heading-h3-size {
     margin-bottom: 10px;
     font-size: 20px;
@@ -2662,7 +2671,8 @@ h3 {
   }
 
   .brix---grid-1-column-gap-row-32px {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-auto-rows: minmax(auto, 1fr);
   }
 
   .brix---mg-bottom-16px {
@@ -2681,6 +2691,11 @@ h3 {
   .brix---paragraph-hero {
     font-size: 17px;
     line-height: 28px;
+  }
+
+  .brix---section-2, .brix---section-2.grey {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .brix---heading-h3-size-2 {
